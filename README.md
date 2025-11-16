@@ -1,7 +1,7 @@
 # Python
 Ample samples of Python
 TaylorAnalyses
-'''
+```python
 # Created on iPad.
 import numpy as np
 import math
@@ -28,4 +28,4 @@ for x in range(error_edgeL,error_edgeR+1):
     		tlfun += x**i / factorial(i)
     sum += tlfun
 print("平均误差为"err(sum,exact,distance))
-'''
+```
